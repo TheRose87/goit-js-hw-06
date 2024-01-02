@@ -14,7 +14,7 @@ loginForm.addEventListener("submit", function (event) {
       password: passwordInput.value,
     };
 
-    //console.log("Entered Data:", formData);
+    console.log("Entered Data:", formData);
 
     this.reset();
   }
